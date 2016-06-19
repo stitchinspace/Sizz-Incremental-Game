@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="jquery-2.2.4.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+<!--
+STRUCTURE:
+Article -> Section -> div -> P / form / ul  / img (sometimes 'ohshit' divs)
+-->
+<header>
+    <img src="images/sizz.jpg">
+<br/>
+<p>Sizz!</p>
+    <div data-income="0" id="totalMoney"> $0 </div>
+<img src="images/sizz.jpg">
+</header>
+
+<body>
+    <article>
+        <section class="marquee">
+                <ul class="verticalList">Features
+                    <li id="material">material</li>
+                    <li id="cuttingTool">cutting tool</li>
+                    <li id="locatorTool">locator tool</li>
+                </ul>
+                <img src="images/sizz.jpg">
+                <ul class="verticalList">Statistics
+                    <li data-income="0" id="incomePerSecond">$ Per Sec</li>
+                    <li data-produced= "0" id="totalProduced">Total sold</li>
+                    <li data-income="0" id="totalIncome">Total $</li>
+                </ul>
+            </section>
+
+
+<section id="buyButtons">
+    <div class="button">
+        <img src="blueberries.png">label
+            <p> benefit </p>
+            <p data-cost="0" id="___Cost">$ Cost</p>
+    </div>
+<div class="button">
+    <img src="blueberries.png">label
+        <p> benefit </p>
+        <p data-cost="0" id="___Cost">$ Cost</p>
+</div>
+<div class="button">
+    <img src="blueberries.png">label
+        <p> benefit </p>
+        <p data-cost="0" id="___Cost">$ Cost</p>
+</div>
+<div class="button">
+    <img src="blueberries.png">label
+        <p> benefit </p>
+        <p data-cost="0" id="___Cost">$ Cost</p>
+</div>
+
+<div class="button">
+<img src="blueberries.png">label
+<p> benefit </p>
+<p data-cost="0" id="___Cost">$ Cost</p>
+</div>
+<div class="button">
+<img src="blueberries.png">label
+<p> benefit </p>
+<p data-cost="0" id="___Cost">$ Cost</p>
+</div>
+</section>
+
+        <section class="menu">Upgrades
+                <ul class = "dropDown">
+                    <li data-cost="0"><img src="label.jpg">Feature Benefit $Cost</li>
+                    <li data-cost="0"><img src="label.jpg">Feature Benefit $Cost</li>
+                    <li data-cost="0"><img src="label.jpg">Feature Benefit $Cost</li>
+                </ul>
+</section>
+</article>
+</body>
+<footer></footer>
+
+</html>
+<!--
+<details> not supported in firefox yet
+  <summary>Some details</summary>
+  <p>More info about the details.</p>
+</details>
+
+<textarea name="textarea" rows="10" cols="50">Write something here</textarea> takes input
+
+<figure>to house an image section.
+<img>
+<figcaption></figcaption>
+</figure>
+
+-->

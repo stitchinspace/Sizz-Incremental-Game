@@ -1,0 +1,135 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+margin: 0;
+padding: 0;
+	font-size: 100%;
+	font: inherit;
+  display: block;
+  overflow: auto;
+}
+
+@font-face {
+/*font-family: Englebert;*/
+/*src: url(Englebert-Regular.ttf);*/
+font-family: Rye;
+src: url(Rye-Regular.ttf);
+}
+body {
+/*font-family: 'Englebert', sans-serif;*/
+font-family: Rye;
+background-color: #032a31;
+}
+header {
+position: relative;
+background-color:#fff1ac;
+width: 30vw;
+margin: auto;
+border: 5px solid #4f1903;
+  border-radius: 50% / 10%;
+box-shadow: 0 0 0 .25em #fff1ac, 0 0 0 .5em #4f1903;
+/*padding: 1vh;*/
+text-align: center;
+font-size: 300%;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+
+header >* {
+display: inline;
+}
+header img {
+width: 6vw;
+}
+/*******************************************************************
+LAYOUT
+*******************************************************************/
+ul {
+margin: 0;
+margin-left: 5px;
+padding: 0px;
+}
+
+article {
+background-color: #4f1903;
+width: 24vw;
+border-radius: 30px;
+margin: auto;
+font-size: 125%;
+padding: 10px;
+  }
+
+li {
+list-style-type: none;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: normal;
+font-size: 75%;}
+
+section {
+border: solid 5px #032a31;
+border-radius: 30px;
+margin-top: 10px;
+}
+
+.marquee >* {
+margin: 10px;
+display: inline-block;
+background-color: #fff1ac;
+border-radius: 15px;
+vertical-align: top;
+width: 120px;
+padding-left: 8px;
+}
+
+#buyButtons {
+display: flex;
+flex-wrap:  wrap;
+justify-content: center;
+width: 98%;
+}
+#buyButtons > .button {
+text-align: center;
+font-size: 80%;
+background-color: #fff1ac;
+border-radius: 15px;
+margin: 10px;
+width: 120px;
+line-height: 30%;
+}
+#buyButtons .button p {
+font-family: sans-serif;
+}
+#buyButtons img {
+width: 50px;
+height: 50px;
+}
+
+/*.horizontalList >*{
+display: inline;
+}*/
+.menu {
+background-color: #fff1ac;
+text-align: center;
+}
+
+.menu .dropDown {
+background-color: #fff1ac;
+display: none;
+border-radius: inherit;
+font-family: sans-serif;
+}
+.menu .dropDown li {
+width: 80%;
+margin: auto;
+margin-bottom: 5px;
+border-radius: 15px;
+border: 2px solid #032a31;
+}
+.menu:hover .dropDown{
+display: block;
+}
